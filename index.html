@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Renova Phone — Projeto de IHC</title>
+  <meta name="description" content="Documentação do projeto acadêmico Renova Phone: Design Thinking aplicado a uma plataforma de celulares usados e seminovos.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+<header class="site-header" id="topo">
+  <div class="container header-inner">
+    <a class="brand" href="#inicio" aria-label="Renova Phone — ir para o início">
+      <!-- ADICIONAR LOGO OFICIAL AQUI -->
+      <span class="brand-logo" aria-hidden="true"></span>
+      <span class="brand-name">Renova Phone</span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="site-nav" id="menu" aria-label="Navegação principal">
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#empatia">Empatia</a></li>
+        <li><a href="#definicao">Definição</a></li>
+        <li><a href="#ideacao">Ideação</a></li>
+        <li><a href="#prototipacao">Prototipação</a></li>
+        <li><a href="#testes">Testes</a></li>
+        <li><a href="#consideracoes">Considerações finais</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="conteudo">
+
+  <!-- INÍCIO -->
+  <section class="hero" id="inicio" data-section>
+    <div class="container hero-grid">
+      <div class="hero-text reveal">
+        <p class="eyebrow">Projeto acadêmico · Interação Humano-Computador</p>
+        <h1>Renova Phone</h1>
+        <p class="hero-sub">Uma nova perspectiva para o mercado de smartphones seminovos.</p>
+        <p class="lead">Registro do processo de concepção de uma plataforma que aproxima compradores e vendedores de celulares usados, do problema inicial à prototipação e à avaliação da interface, seguindo as etapas do Design Thinking.</p>
+        <p class="meta">Trabalho avaliativo trimestral · Design de Interface Humano-Computador · 2º ano · 2026<br>Instituto Federal do Paraná, Campus Palmas · Prof. Andreia Marini</p>
+        <!-- ADICIONAR NOME DO(A) ESTUDANTE AQUI (trabalho individual) -->
+        <a class="btn btn-primary" href="#sobre">Conhecer o projeto</a>
+      </div>
+
+      <div class="hero-images reveal" aria-hidden="false">
+        <img class="hero-img hero-img-a" src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=700&q=85" alt="Smartphone sobre uma superfície clara" loading="eager">
+        <img class="hero-img hero-img-b" src="https://images.unsplash.com/photo-1511709268805-0c7b4b7a3f6a?auto=format&fit=crop&w=700&q=85" alt="Smartphone em close, com a tela acesa" loading="eager">
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="section" id="sobre" data-section>
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="eyebrow">Sobre o projeto</p>
+        <h2>Tecnologia, consumo e reaproveitamento</h2>
+      </header>
+
+      <div class="link-row reveal">
+        <a class="btn btn-outline" href="https://miro.com/app/board/uXjVG-c8Jtk=/?share_link_id=265985928362" target="_blank" rel="noopener noreferrer">Abrir quadro no Miro ↗</a>
+      </div>
+
+      <div class="block reveal">
+        <h3>Processo de design: Design Thinking</h3>
+        <p>O projeto foi conduzido seguindo as cinco etapas do Design Thinking, e este site está organizado nessa mesma ordem.</p>
+        <ol class="process">
+          <li><a href="#empatia">Empatia</a><span>Compreender os usuários e escolher o problema.</span></li>
+          <li><a href="#definicao">Definição</a><span>Delimitar objetivo e problema; personas e jornada do usuário.</span></li>
+          <li><a href="#ideacao">Ideação</a><span>Gerar ideias, planejar e definir o fluxo de tarefas.</span></li>
+          <li><a href="#prototipacao">Prototipação</a><span>Transformar as ideias em um protótipo navegável.</span></li>
+          <li><a href="#testes">Testes</a><span>Avaliar a usabilidade e apontar melhorias.</span></li>
+        </ol>
+      </div>
+
+      <div class="two-col reveal">
+        <div>
+          <h3>O que é o Renova Phone</h3>
+          <p>O Renova Phone é uma plataforma que aproxima compradores e vendedores de celulares usados e seminovos, oferecendo uma alternativa de compra e incentivando o reaproveitamento de aparelhos eletrônicos.</p>
+
+          <h3>Problema que procura resolver</h3>
+          <p>A compra e a venda de celulares usados costumam ser processos pouco organizados. O projeto busca tornar essa experiência mais simples, clara e confiável para quem compra e para quem vende.</p>
+        </div>
+        <div>
+          <h3>Público-alvo</h3>
+          <p>Pessoas que desejam comprar um smartphone por um caminho alternativo ao aparelho novo e pessoas que desejam vender o aparelho que já não utilizam. Esses perfis foram detalhados nas personas da etapa de Definição.</p>
+
+          <h3>Objetivo geral</h3>
+          <p>Facilitar o acesso ao mercado de celulares seminovos, conectando compradores e vendedores por meio de uma interface eficiente, pensada a partir das necessidades dos usuários.</p>
+        </div>
+      </div>
+
+      <div class="note reveal">
+        <h3>Tecnologia, consumo e reaproveitamento</h3>
+        <p>Smartphones fazem parte da rotina de grande parte das pessoas, e aparelhos que ainda funcionam podem ter uma segunda vida com outro usuário. O Renova Phone parte dessa relação: usar a tecnologia para facilitar o encontro entre quem quer vender e quem quer comprar, estimulando o reaproveitamento em vez do descarte.</p>
+      </div>
+
+
+
+
+    </div>
+  </section>
+
+  <!-- EMPATIA -->
+  <section class="section section-alt" id="empatia" data-section>
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="step">Etapa 1</p>
+        <h2>Empatia</h2>
+        <p class="lead">Nesta etapa buscamos compreender os usuários: quem são, do que precisam, quais dificuldades enfrentam e o que esperam de uma experiência de compra e venda de celulares usados.</p>
+      </header>
+
+      <article class="block reveal">
+        <h3>Escolha do problema</h3>
+        <p>O problema escolhido para o projeto é a dificuldade de comprar e vender celulares usados de forma simples e organizada, o que motivou a criação de uma plataforma que aproxime compradores e vendedores.</p>
+        <!-- ADICIONAR AQUI A JUSTIFICATIVA DA ESCOLHA DO PROBLEMA, CONFORME O MIRO -->
+      </article>
+
+      <article class="block reveal">
+        <h3>Mapa de empatia</h3>
+        <figure class="figure">
+          <button class="zoom" type="button" data-lightbox aria-label="Ampliar imagem: mapa de empatia">
+            <img src="https://i.ibb.co/Fk24xb2t/image.png" alt="Mapa de empatia do projeto Renova Phone" loading="lazy">
+          </button>
+          <figcaption>Mapa de empatia. Clique para ampliar.</figcaption>
+        </figure>
+      </article>
+  </section>
+
+  <!-- DEFINIÇÃO -->
+  <section class="section" id="definicao" data-section>
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="step">Etapa 2</p>
+        <h2>Definição</h2>
+        <p class="lead">As informações coletadas na etapa de Empatia foram organizadas para delimitar o problema e orientar o desenvolvimento da solução. Nesta etapa também ficam as personas e a jornada do usuário, que transformam os dados levantados em perfis e percursos.</p>
+      </header>
+
+      <div class="block reveal">
+        <div class="note">
+          <h3>Objetivo do projeto</h3>
+          <p>Aproximar compradores e vendedores e facilitar o acesso ao mercado de celulares seminovos, incentivando o reaproveitamento de aparelhos.</p>
+        </div>
+      </div>
+
+      <article class="block reveal">
+        <h3>Matriz CSD</h3>
+        <figure class="figure">
+          <button class="zoom" type="button" data-lightbox aria-label="Ampliar imagem: Matriz CSD">
+            <img src="https://i.ibb.co/LdhJmFwg/image.png" alt="Matriz CSD (Certezas, Suposições e Dúvidas) do projeto Renova Phone" loading="lazy">
+          </button>
+          <figcaption>Matriz CSD. Clique para ampliar.</figcaption>
+        </figure>
+      </article>
+
+      <div class="two-col block reveal">
+        <div class="note">
+          <h3>Problema a ser resolvido</h3>
+          <p>A experiência de comprar e vender celulares usados é pouco simples e organizada para os usuários.</p>
+          <!-- ADICIONAR A DEFINIÇÃO DO PROBLEMA CONFORME A MATRIZ CSD AQUI -->
+        </div>
+        <div class="note">
+          <h3>Necessidades dos usuários</h3>
+          <p>Uma experiência de compra e venda mais simples e organizada, que conecte quem quer comprar a quem quer vender.</p>
+          <!-- ADICIONAR NECESSIDADES DETALHADAS LEVANTADAS NA PESQUISA AQUI -->
+        </div>
+      </div>
+
+      <article class="block reveal">
+        <h3>Personas</h3>
+        <p>Três personas representam os perfis de usuários considerados no projeto.</p>
+        <div class="gallery gallery-3">
+          <figure class="figure">
+            <button class="zoom" type="button" data-lightbox aria-label="Ampliar imagem: persona 1">
+              <img src="https://i.ibb.co/mVmD6SMd/image.png" alt="Persona 1 do projeto Renova Phone" loading="lazy">
+            </button>
+            <figcaption>Persona 1</figcaption>
+          </figure>
+          <figure class="figure">
+            <button class="zoom" type="button" data-lightbox aria-label="Ampliar imagem: persona 2">
+              <img src="https://i.ibb.co/sJyzmpYD/image.png" alt="Persona 2 do projeto Renova Phone" loading="lazy">
+            </button>
+            <figcaption>Persona 2</figcaption>
+          </figure>
+          <figure class="figure">
+            <button class="zoom" type="button" data-lightbox aria-label="Ampliar imagem: persona 3">
+              <img src="https://i.ibb.co/d4rkDwp8/image.png" alt="Persona 3 do projeto Renova Phone" loading="lazy">
+            </button>
+            <figcaption>Persona 3</figcaption>
+          </figure>
+        </div>
+      </article>
+
+      <article class="block reveal">
+        <h3>Jornada do usuário</h3>
+        <figure class="figure">
+          <button class="zoom" type="button" data-lightbox aria-label="Ampliar imagem: jornada do usuário">
+            <img src="https://i.ibb.co/Cpkc9vfJ/image.png" alt="Jornada do usuário do projeto Renova Phone" loading="lazy">
+          </button>
+          <figcaption>Jornada do usuário. Clique para ampliar.</figcaption>
+        </figure>
+      </article>
+    </div>
+  </section>
+
+  <!-- IDEAÇÃO -->
+  <section class="section section-alt" id="ideacao" data-section>
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="step">Etapa 3</p>
+        <h2>Ideação</h2>
+        <p class="lead">Aqui as ideias foram geradas, comparadas e organizadas para propor soluções ao problema identificado.</p>
+      </header>
+
+      <article class="block reveal">
+        <h3>Crazy 8</h3>
+        <figure class="figure">
+          <button class="zoom" type="button" data-lightbox aria-label="Ampliar imagem: Crazy 8">
+            <img src="https://i.ibb.co/NdVX3D5X/image.png" alt="Painel Crazy 8 do projeto Renova Phone" loading="lazy">
+          </button>
+          <figcaption>Crazy 8. Clique para ampliar.</figcaption>
+        </figure>
+      </article>
+
+      <article class="block reveal">
+        <h3>Plano de ação</h3>
+        <figure class="figure">
+          <button class="zoom" type="button" data-lightbox aria-label="Ampliar imagem: plano de ação">
+            <img src="https://i.ibb.co/5gvLBykn/image.png" alt="Plano de ação do projeto Renova Phone" loading="lazy">
+          </button>
+          <figcaption>Plano de ação. Clique para ampliar.</figcaption>
+        </figure>
+      </article>
+
+      <article class="block reveal">
+        <h3>Fluxo de tarefas</h3>
+        <figure class="figure">
+          <button class="zoom" type="button" data-lightbox aria-label="Ampliar imagem: fluxograma">
+            <img src="https://i.ibb.co/XrzMRSKL/image.png" alt="Fluxograma do projeto Renova Phone" loading="lazy">
+          </button>
+          <figcaption>Fluxograma. Clique para ampliar.</figcaption>
+        </figure>
+      </article>
+
+      <article class="block reveal">
+        <h3>Lista de tarefas e telas do aplicativo</h3>
+        <figure class="figure">
+          <button class="zoom" type="button" data-lightbox aria-label="Ampliar imagem: lista de tarefas e telas do aplicativo">
+            <img src="https://i.ibb.co/C5DPh0Wc/image.png" alt="Lista de tarefas e identificação das telas do aplicativo Renova Phone" loading="lazy">
+          </button>
+          <figcaption>Lista de tarefas e telas do aplicativo. Clique para ampliar.</figcaption>
+        </figure>
+      </article>
+    </div>
+  </section>
+
+  <!-- PROTOTIPAÇÃO -->
+  <section class="section" id="prototipacao" data-section>
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="step">Etapa 4</p>
+        <h2>Prototipação</h2>
+        <p class="lead">Nesta etapa as ideias foram transformadas em uma representação visual e navegável da plataforma.</p>
+      </header>
+
+      <article class="block reveal">
+        <figure class="figure">
+          <button class="zoom" type="button" data-lightbox aria-label="Ampliar imagem: captura do protótipo">
+            <img src="https://i.ibb.co/W4pn1Mz0/image.png" alt="Captura do protótipo do Renova Phone" loading="lazy">
+          </button>
+          <figcaption>Captura do protótipo. Clique para ampliar.</figcaption>
+        </figure>
+
+      </article>
+
+      <article class="block reveal">
+        <h3>Link do protótipo</h3>
+        <p>O protótipo navegável do projeto pode ser acessado no Stitch.</p>
+        <div class="link-row">
+          <a class="btn btn-primary" href="https://stitch.google.com/preview/17977791595995360003?node-id=17dca423363d4c03a042957c7ba8ca2b" target="_blank" rel="noopener noreferrer">Acessar protótipo no Stitch ↗</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- TESTES -->
+  <section class="section section-alt" id="testes" data-section>
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="step">Etapa 5</p>
+        <h2>Testes</h2>
+        <p class="lead">O teste de usabilidade permite observar como as pessoas navegam pela interface, avaliar a experiência e identificar melhorias antes de avançar para a implementação.</p>
+      </header>
+
+      <article class="block reveal">
+        <h3>Resultados do teste de usabilidade</h3>
+        <figure class="figure">
+          <button class="zoom" type="button" data-lightbox aria-label="Ampliar imagem: resultados do teste de usabilidade">
+            <img src="https://i.ibb.co/jZzVTsRG/image.png" alt="Resultados do teste de usabilidade do Renova Phone" loading="lazy">
+          </button>
+          <figcaption>Resultados do teste de usabilidade. Clique para ampliar.</figcaption>
+        </figure>
+        <div class="link-row">
+          <a class="btn btn-outline" href="https://docs.google.com/spreadsheets/d/1pDnvU3ar_XIkC-N2pT7ZL9TCHfNj7Co3F10o-5okPls/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Abrir planilha completa ↗</a>
+        </div>
+      </article>
+
+  <!-- UX E ACESSIBILIDADE -->
+  <section class="section" id="ux" data-section>
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="eyebrow">Fundamentos</p>
+        <h2>UX Design e acessibilidade</h2>
+        <p class="lead">A experiência do usuário define se uma plataforma é fácil de entender e agradável de usar. A acessibilidade amplia esse cuidado para que mais pessoas consigam usar a interface, em diferentes condições e dispositivos.</p>
+      </header>
+
+      <ul class="principles reveal">
+        <li><strong>Contraste adequado</strong><span>Texto e fundo com contraste suficiente favorecem a leitura, inclusive em telas pequenas e com muita luz.</span></li>
+        <li><strong>Textos legíveis</strong><span>Tamanho, espaçamento e hierarquia ajudam a reconhecer o que é título, descrição e ação.</span></li>
+        <li><strong>Botões identificáveis</strong><span>Elementos clicáveis devem parecer clicáveis e ter rótulos claros sobre o que fazem.</span></li>
+        <li><strong>Navegação consistente</strong><span>Padrões repetidos entre telas reduzem o esforço de aprendizagem.</span></li>
+        <li><strong>Organização das informações</strong><span>Agrupar e priorizar conteúdos ajuda o usuário a decidir sem se perder.</span></li>
+        <li><strong>Adaptação a diferentes telas</strong><span>A interface deve funcionar bem em computadores, tablets e celulares.</span></li>
+      </ul>
+
+      <div class="applied reveal">
+        <h3>Recursos de acessibilidade aplicados neste site</h3>
+        <ul>
+          <li><strong>Idioma definido</strong> na página (português do Brasil).</li>
+          <li><strong>Link “Pular para o conteúdo”</strong> para quem navega pelo teclado.</li>
+          <li><strong>Foco visível</strong> em links e botões, com navegação completa por teclado, inclusive na ampliação das imagens (a tecla ESC fecha).</li>
+          <li><strong>Textos alternativos</strong> em todas as imagens e rótulos nos botões de menu e de ampliação.</li>
+          <li><strong>Texto com alto contraste</strong> sobre fundo claro, com tipografia legível e espaçamento generoso.</li>
+          <li><strong>Redução de movimento</strong>: as animações são desativadas para quem prefere menos movimento.</li>
+          <li><strong>Layout responsivo</strong> para computadores, tablets e celulares.</li>
+        </ul>
+      </div>
+
+  <!-- CONSIDERAÇÕES FINAIS -->
+  <section class="section section-alt" id="consideracoes" data-section>
+    <div class="container narrow">
+      <header class="section-head reveal">
+        <p class="eyebrow">Encerramento</p>
+        <h2>Considerações finais</h2>
+      </header>
+
+      <div class="prose reveal">
+        <p>O desenvolvimento do Renova Phone permitiu aplicar, na prática, os conceitos de Interação Humano-Computador (IHC) e as etapas do Design Thinking. Ao longo do projeto, foram identificadas necessidades dos usuários, definidos problemas, elaboradas personas e desenvolvidas propostas para tornar a experiência de compra e venda de celulares usados mais simples e organizada.</p>
+        <p>A criação do protótipo possibilitou transformar as ideias em uma solução visual e analisar como os usuários poderiam interagir com a plataforma. Além disso, o teste de usabilidade contribuiu para observar a experiência de navegação e identificar aspectos que podem ser aprimorados. Essas etapas demonstraram a importância de considerar as necessidades dos usuários durante todo o processo de desenvolvimento.</p>
+        <p>Conclui-se que o Renova Phone apresenta uma proposta que busca facilitar o acesso ao mercado de celulares seminovos, aproximando compradores e vendedores e incentivando o reaproveitamento de aparelhos. O projeto também evidenciou que o desenvolvimento de uma interface eficiente exige planejamento, avaliação e melhorias contínuas. Como próximos passos, pretende-se aperfeiçoar o protótipo com base nos resultados obtidos e avançar na implementação da plataforma.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p><strong>Renova Phone</strong> · Projeto acadêmico de Interação Humano-Computador</p>
+    <a href="#topo">Voltar ao topo ↑</a>
+  </div>
+</footer>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Imagem ampliada" hidden>
+  <button class="lightbox-close" type="button" aria-label="Fechar imagem ampliada">&times;</button>
+  <img class="lightbox-img" src="" alt="">
+  <p class="lightbox-caption"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
